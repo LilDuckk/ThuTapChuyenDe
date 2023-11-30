@@ -1,0 +1,14 @@
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\Lba05_1\obj\Debug\net7.0\Lba05_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\Lba05_1\obj\Debug\net7.0\Lba05_1.AssemblyInfoInputs.cache
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\Lba05_1\obj\Debug\net7.0\Lba05_1.AssemblyInfo.cs
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\Lba05_1\obj\Debug\net7.0\Lba05_1.csproj.CoreCompileInputs.cache
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\Lba05_1\bin\Debug\net7.0\Lba05_1.exe
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\Lba05_1\bin\Debug\net7.0\Lba05_1.deps.json
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\Lba05_1\bin\Debug\net7.0\Lba05_1.runtimeconfig.json
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\Lba05_1\bin\Debug\net7.0\Lba05_1.dll
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\Lba05_1\bin\Debug\net7.0\Lba05_1.pdb
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\Lba05_1\obj\Debug\net7.0\Lba05_1.dll
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\Lba05_1\obj\Debug\net7.0\refint\Lba05_1.dll
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\Lba05_1\obj\Debug\net7.0\Lba05_1.pdb
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\Lba05_1\obj\Debug\net7.0\Lba05_1.genruntimeconfig.cache
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\Lba05_1\obj\Debug\net7.0\ref\Lba05_1.dll

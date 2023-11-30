@@ -1,0 +1,14 @@
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\Lession4\Lession4_Lab_3\bin\Debug\net7.0\Lession4_Lab_3.exe
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\Lession4\Lession4_Lab_3\bin\Debug\net7.0\Lession4_Lab_3.deps.json
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\Lession4\Lession4_Lab_3\bin\Debug\net7.0\Lession4_Lab_3.runtimeconfig.json
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\Lession4\Lession4_Lab_3\bin\Debug\net7.0\Lession4_Lab_3.dll
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\Lession4\Lession4_Lab_3\bin\Debug\net7.0\Lession4_Lab_3.pdb
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\Lession4\Lession4_Lab_3\obj\Debug\net7.0\Lession4_Lab_3.GeneratedMSBuildEditorConfig.editorconfig
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\Lession4\Lession4_Lab_3\obj\Debug\net7.0\Lession4_Lab_3.AssemblyInfoInputs.cache
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\Lession4\Lession4_Lab_3\obj\Debug\net7.0\Lession4_Lab_3.AssemblyInfo.cs
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\Lession4\Lession4_Lab_3\obj\Debug\net7.0\Lession4_Lab_3.csproj.CoreCompileInputs.cache
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\Lession4\Lession4_Lab_3\obj\Debug\net7.0\Lession4_Lab_3.dll
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\Lession4\Lession4_Lab_3\obj\Debug\net7.0\refint\Lession4_Lab_3.dll
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\Lession4\Lession4_Lab_3\obj\Debug\net7.0\Lession4_Lab_3.pdb
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\Lession4\Lession4_Lab_3\obj\Debug\net7.0\Lession4_Lab_3.genruntimeconfig.cache
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\Lession4\Lession4_Lab_3\obj\Debug\net7.0\ref\Lession4_Lab_3.dll

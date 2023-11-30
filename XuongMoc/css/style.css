@@ -1,0 +1,653 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'font-medium';
+    color: #222222;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* header */
+header .navbar {
+    display: flex;
+}
+
+header .navbar .menu {
+    display: flex;
+}
+
+header .navbar .navbar-menu .menu-item {
+    position: relative;
+    line-height: 1.5;
+}
+
+header .navbar .selected::after,
+header .navbar .navbar-menu .menu-item:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0.25rem;
+    width: 70%;
+    background-color: #bd945f;
+}
+
+/* all */
+.text-gold {
+    color: #bd945f !important;
+}
+
+.bg-gold {
+    background-color: #bd945f !important;
+}
+
+.btn-gold {
+    background-color: #bd945f !important;
+}
+
+.btn-gold:hover {
+    background-color: #b39e82 !important;
+}
+
+.border-gold {
+    border-color: #bd945f !important;
+}
+
+.text-blue {
+    color: #343659 !important;
+}
+
+.font-ultra {
+    font-family: 'font-ultra';
+}
+
+.font-thin {
+    font-family: 'font-thin';
+}
+
+.title {
+    font-family: 'font-ultra';
+    position: relative;
+    line-height: 1.5rem;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0.25rem;
+    /* width: 60%; */
+    background-color: #bd945f;
+}
+
+.bg-f3f3f3 {
+    background-color: #f3f3f3;
+}
+
+.mt-5rem {
+    margin-top: 5rem !important;
+}
+
+.w-80 {
+    width: 80% !important;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* index.html */
+.title-index {
+    font-family: 'font-ultra';
+    position: relative;
+}
+
+.title-index::after {
+    content: "";
+    position: absolute;
+    left: 20%;
+    right: 0;
+    bottom: -10px;
+    height: 0.5rem;
+    width: 60%;
+    background-color: #bd945f;
+}
+
+/* index banner */
+#index .banner {
+    position: relative;
+}
+
+#index .introduction {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10%;
+}
+
+/* index category */
+#index .container-category {
+    margin-top: -3rem;
+    position: relative;
+}
+
+#index .slick-prev:before,
+#index .slick-next:before {
+    font-size: 2.86rem;
+    color: #bd945f;
+}
+
+#index .slick-prev {
+    left: -1.2rem;
+}
+
+/* index aboutUs */
+#index .aboutUs {
+    position: relative;
+}
+
+#index .aboutUs::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/ve-chung-toi/bg-about-us.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    filter: brightness(50%);
+}
+
+#index .aboutUs .container {
+    margin: 0 auto;
+    position: relative;
+}
+
+#index .aboutUs .more {
+    top: 40%;
+    right: 10%;
+}
+
+/* index contant  */
+
+.form-contact {
+    margin-top: 10rem;
+    position: relative;
+    background-image: url('../images/lienhe-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+/* all-products.html*/
+/* all-products banner*/
+#all-products .banner .img-banner {
+    position: relative;
+}
+
+#all-products .banner .btn-buy {
+    position: absolute;
+    right: 20%;
+    bottom: 38%;
+}
+
+/* all-products list-product*/
+#all-products .list-products {
+    background-color: #f3f3f3;
+}
+
+#all-products .list-products .filter-price-item:hover {
+    cursor: pointer;
+    color: #343659;
+}
+
+#all-products .list-products .title {
+    font-family: 'font-ultra';
+    position: relative;
+}
+
+#all-products .list-products .title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    height: 0.4rem;
+    width: 60%;
+    background-color: #bd945f;
+}
+
+#all-products .list-details-desc {
+    border-bottom: 3px solid #bd945f;
+}
+
+#all-products .list-details-desc li {
+    cursor: pointer;
+}
+
+#all-products .list-details-desc li:hover {
+    color: #343659;
+    border-bottom: 3px solid #343659;
+}
+
+/* footer */
+footer {
+    margin-top: auto;
+    background-color: #363636;
+}
+
+footer li,
+footer span,
+footer i,
+footer a {
+    color: #fff;
+    font-family: 'font-thin';
+    cursor: pointer;
+}
+
+footer li:hover,
+footer span:hover,
+footer i:hover,
+footer a:hover {
+    color: #bd945f;
+}
+
+footer .container .title {
+
+    margin-bottom: 1.3rem;
+    position: relative;
+}
+
+footer .container .title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0.2rem;
+    width: 6rem;
+    background-color: #fff;
+
+}
+
+footer ul {
+    padding: 0 !important;
+}
+
+footer .container .title span {
+    font-family: 'font-medium';
+}
+
+footer .contact .img-social {
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+footer .contact img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+footer .contact li:last-child {
+    width: 11rem;
+}
+
+/* reponsive */
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    * {
+            font-size: 12px;
+        }
+    header nav .menu {
+        width: calc(9*100%/12);
+    }
+
+    .container {
+        width: calc(9*100%/12) !important;
+    }
+
+    /* main */
+
+    /* banner */
+    .banner>.container {
+        width: 100% !important;
+    }
+
+    /* news  */
+    .container-news {
+        flex-direction: column;
+    }
+
+    .container-news .main-news {
+        width: 100% !important;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .container-news .list-news {
+        flex-direction: row !important;
+        width: 100% !important;
+    }
+
+    .container-news .list-news .list-news-item {
+        flex-direction: column;
+        margin-top: 0 !important;
+        width: 28% !important;
+    }
+
+    .container-news .list-news .list-news-item .news-item-text {
+        width: 100% !important;
+        margin-top: 1rem;
+    }
+
+    .container-news .list-news .more {
+        width: 10% !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .container-news .list-news .list-news-item img {
+        width: 100% !important;
+    }
+
+    .form-contact form img {
+        width: 15%;
+        bottom: 60%;
+    }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    
+    header .navbar {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+
+    header nav ul  {
+        display: none !important;
+    }
+
+    .d-flex{
+        display: none !important ;
+    }
+
+    header .logo {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        align-items: center;
+    }
+
+    header .logo img {
+        width: 20% !important;
+        margin-left: -100px;
+        padding-bottom: 1rem;
+    }
+
+    header .navbar .responsive-menu {
+        margin-top: 0.5rem;
+        display: block !important;
+        width: 100%;
+        background-color: #bd945f;
+        animation: xx 300ms ease-in-out;
+        transform-origin: top center;
+    }
+
+    header .navbar .responsive-menu>.menu-item {
+
+        animation: yy 800ms ease-in-out;
+        transform-origin: left;
+        /* animation-delay: 500ms; */
+    }
+
+    header .navbar .responsive-menu .menu-item {
+        padding: 0 2rem;
+    }
+
+    header .navbar .responsive-menu .menu-item a {
+        color: #f3f3f3;
+        border-bottom: 1px solid #f3f3f3;
+        display: block;
+        line-height: 3.2rem;
+    }
+
+    header .navbar .responsive-menu .menu-item:last-child a {
+        border-bottom: none !important;
+    }
+
+    .fa-bars {
+        margin-right: -100px;
+        display: block !important;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    @keyframes xx {
+        0% {
+            transform: rotateX(-90deg);
+        }
+
+        100% {
+            transform: rotateX(0deg);
+        }
+    }
+
+    @keyframes yy {
+        0% {
+            transform: rotateY(-90deg);
+        }
+
+        100% {
+            transform: rotateY(0deg);
+        }
+    }
+
+    /* aboutUS  */
+        main .aboutUs .container .content {
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        main .aboutUs .container .about-content,
+        main .aboutUs .container .img-content {
+            width: 90%;
+            margin: 0 auto;
+        }
+    
+        main .aboutUs .container .about-content {
+            margin-top: 1rem;
+            text-align: center;
+    
+        }
+    
+        main .aboutUs .container .list-wCS-item {
+            width: 90%;
+            margin: 1rem auto
+        }
+
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* banner */
+    .banner .introduction h1{
+        font-size: 22.5px !important;
+    }
+    .banner .introduction p{
+        font-size: 9px !important;
+    }
+
+    main .banner .container .introduction p {
+        width: 60%;
+        margin: 0;
+    }
+
+    /* product */
+    main .product .container .category {
+        display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+    }
+    main .product .container .category .category-item {
+        width: 30%;
+        margin-bottom: 2rem;
+    }
+
+    /* aboutUS  */
+    
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    * {
+        font-size: 8px !important;
+    }
+    /* banner */
+    main .banner .container .introduction {
+        text-align: center;
+    }
+    main .banner .container .introduction p {
+        width: 100%;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+        .banner .introduction h1 {
+            font-size: 21.5px !important;
+        }
+
+    main .banner .container .introduction button {
+        border: none;
+        background-color: #bd945f;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        font-family: 'font-ultra';
+    }
+
+    /* product */
+    main .product .container .category {
+        margin-top: -2rem !important    ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    main .product .container .category .category-item {
+        width: 45%;
+        margin-bottom: 2rem;
+    }
+    /* news  */
+    .container-news .list-news {
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+
+    .container-news .list-news .list-news-item {
+        flex-direction: row;
+        margin-top: 1rem !important;
+        width: 100% !important;
+    }
+    .news .container-news .list-news .list-news-item img {
+        width: 30% !important;
+    }
+
+    .container-news .list-news .list-news-item .news-item-text {
+        width: 62% !important;
+        margin-top: 1rem;
+    }
+
+
+    .container-news .list-news .more {
+        width: 100% !important;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .container-news .list-news .list-news-item img {
+        width: 100% !important;
+    }
+
+    .form-contact form img {
+        width: 15%;
+        bottom: 60%;
+    }
+
+    /* form-contact */
+    .form-contact .container {
+        flex-direction: column;
+        
+    }
+
+    .form-contact form img {
+        width: 20%;
+
+        bottom: 60%;
+    }
+
+    .form-contact .contact-text,
+    .form-contact .contact-form-input {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .form-contact .contact-text {
+        display: flex;
+        justify-content: center;
+    }
+    .form-contact .contact-text::after {
+        content: "";
+        position: absolute;
+        bottom: -5%;
+        left: 55%;
+        width: 14%;
+        background-color: #fff;
+        height: 0.4rem;
+    }
+
+    .form-contact .contact-form-input {
+        margin-top: 1rem;
+    }
+
+    .form-contact .contact-form-input .input {
+        justify-content: space-evenly;
+    }
+
+    .form-contact .input button {
+        margin-right: 0;
+    }
+
+    footer .container {
+        flex-direction: column;
+    }
+
+    footer .container .aboutUs,
+    footer .container .contact {
+        margin-top: 1rem;
+    }
+}

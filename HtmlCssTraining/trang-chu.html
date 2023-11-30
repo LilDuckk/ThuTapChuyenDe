@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="content/css/dich-vu.css">
+    <link rel="stylesheet" href="content/css/trang-chu.css">
+</head>
+
+<body>
+    <header id="tmTop" class="container-fluid " style="margin-top: 20px; padding-bottom: 20px; overflow: hidden;">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-1 text-center">
+                <!-- logo -->
+                <div class="logo ">
+                    <img src="images/logo.png" alt="logo TM Hitech" class="img-thumbnail" id="slideleft">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-8 d-flex align-items-center ">
+                <!-- title -->
+                <div class="title">
+                    <h2 class="lang text-center" key="MAINNAME1"></h2>
+                    <p class="lang" key="MAINNAME2"></p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-3">
+                <!-- phone,lang -->
+                <div class="text-right" id="slideright">
+                    <div class="lang">
+                        <button class="translate" id="en-gb" style="border: 0px;">
+                            <img src="images/vi.png" alt="Việt Nam">
+                        </button>
+                        <button class="translate" id="zh-tw" style="border: 0px;">
+                            <img src="images/en.png" alt="English">
+                        </button>
+                    </div>
+                    <div class="phone d-flex align-items-right">
+                        <img src="images/24h.png" alt="Call:0978.611.889" class="img-phone">
+                        <a href="tel:0978611889" title="Call:0978.611.889">
+                            0978.611.889
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand d-block d-sm-none" href="#">TM HI-Tech</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="lang nav-link" key="HOME" href="#">(current)</a>
+                </li>
+                <li class="nav-item">
+                    <a class="lang nav-link" key="INTRODUCE" href="#">GIỚI THIỆU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="lang nav-link" key="PRODUCTS" href="#">SẢN PHẨM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="lang nav-link" key="PROJECTS" href="#">DỰ ÁN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="lang nav-link" key="SERVICE" href="#">DỊCH VỤ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="lang nav-link" key="NEWS" href="#">TIN TỨC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="lang nav-link" key="RECRUITMENT" href="#">TUYỂN DỤNG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="lang nav-link" key="CONTACT" href="#">LIÊN HỆ</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="">
+                <button class="btn  my-2 my-sm-0 " type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </nav>
+    <section class="w-100">
+        <aside>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 " src="images/images-tc/tc-banner01.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>TM Hi-Tech</h5>
+                            <p>...</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/images-tc/tc-banner02.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/images-tc/tc-banner03.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/images-tc/tc-banner04.jpg" alt="Four slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </aside>
+    </section>
+
+    <!--Trang-Chu-Body-->
+    <section id="trang-chu" class="container-fluid">
+        <div class="dv-body">
+            <div class="content-dong">
+                <div class="title-dong">CÁC HÃNG SẢN XUẤT</div>
+                <div class="tc-nsx-box">
+                    <div class="contentbox">
+                        <div class="slide-content" id="slidecontent">
+                            <ul>
+                                <li><img src="images/logo.png" alt=""></li>
+                                <li><img src="images/logo.png" alt=""></li>
+                                <li><img src="images/logo.png" alt=""></li>
+                                <li><img src="images/logo.png" alt=""></li>
+                                <li><img src="images/logo.png" alt=""></li>
+                                <li><img src="images/logo.png" alt=""></li>
+                                <li><img src="images/logo.png" alt=""></li>
+                                <!-- <li><img src="images/logo.png" alt=""></li>
+                               <li><img src="images/logo.png" alt=""></li>
+                               <li><img src="images/logo.png" alt=""></li>
+                               <li><img src="images/logo.png" alt=""></li>
+                               <li><img src="images/logo.png" alt=""></li>
+                               <li><img src="images/logo.png" alt=""></li>
+                               <li><img src="images/logo.png" alt=""></li>
+                               <li><img src="images/logo.png" alt=""></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer id="tmfooter" class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-9">
+                <div class="company">
+                    <h3 class="lang" key="MAINNAME1">
+                        <h5 class="lang" key="MAINNAME3"></h5>
+                    </h3>
+
+                </div>
+                <div class="address">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-4 b-right">
+                            <div class="title">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Trụ sở:
+                            </div>
+                            <div>
+                                <p>
+                                    12B/2, 781 Hồng Hà, Quận Hoàn Kiếm, <br>
+                                    Hà Nội, Việt Nam. <br>
+                                    Tel: (04) 3 576 3436 <br>
+                                    Fax: (04) 3 576 5512 <br>
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4 b-right">
+                            <div class="title">
+                                <i class="fas fa-map-marker-alt"></i>
+                                VPĐD tại HN:
+                            </div>
+                            <div>
+                                <p>
+                                    42 Phương Mai, Đống Đa, Hà Nội <br>
+                                    Tel: (04) 3 576 3636 & (04) 3576 6999 <br>
+                                    Hotline: 098 836 6622 <br>
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4 ">
+                            <div class="title">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Chi Nhánh HCM:
+                            </div>
+                            <div>
+                                <p>
+                                    08.04 lô A, chung cư Bàu Cát 2, <br>
+                                    phường 10, Q. Tân Bình, TP.HCM <br>
+                                    Tel: (08) 3860 3136 <br>
+                                    Hotline: 098 969 7177 <br>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3">
+                <div class="facebook">
+                    <h3>FACEBOOK</h3>
+                </div>
+                <div class="text-right address">
+                    <iframe
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FVienCongNgheDevmaster25%2F&tabs&width=400&height=160&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=true&appId"
+                        width="100%" height="160" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowTransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row b-top">
+            <div class="col-xs-12 col-md-8">
+                <ul class="nav-footer">
+                    <li><a class="lang" href="#" key="HOME" title="Trang chủ">Trang chủ</a></li>
+                    <li><a class="lang" href="#" key="INTRODUCE" title="Giới thiệu">Giới thiệu</a></li>
+                    <li><a class="lang" href="#" key="PRODUCTS" title="Sản phẩm">Sản phẩm</a></li>
+                    <li><a class="lang" href="#" key="PROJECTS" title="Dự án">Dự án</a></li>
+                    <li><a class="lang" href="#" key="SERVICE" title="Dịch vụ">Dịch vụ</a></li>
+                    <li><a class="lang" href="#" key="NEWS" title="Tin tức">Tin tức</a></li>
+                    <li><a class="lang" href="#" key="RECRUITMENT" title="Tuyển dụng">Tuyển dụng</a></li>
+                    <li><a class="lang" href="#" key="CONTACT" title="Liên hệ">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-4 d-flex align-items-right">
+                <ul class="nav-footer social ">
+                    <li><a href="https://www.facebook.com/VienCongNgheDevmaster25" title="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a></li>
+                    <li><a href="#" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a></li>
+                    <li><a href="#" title="Google Plus">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a></li>
+                    <li><a href="#" title="Youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a></li>
+                    <li><a href="javascript:void(0)" title="Top" id="link-top">
+                            <i class="fas fa-chevron-up"></i>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#link-top').click(function () {
+                $("html, body").animate({ scrollTop: 0 }, 1000);
+                return false;
+            });
+        });
+
+    </script>
+    <script>
+        $('.carousel').carousel({
+            interval: 2500,
+            pause: 'hover',
+
+        })
+
+    </script>
+
+    <script>
+        var arrLang = {
+            "en-gb": {
+                "HOME": "TRANG CHỦ",
+                "INTRODUCE": "GIỚI THIỆU",
+                "PRODUCTS": "SẢN PHẨM",
+                "PROJECTS": "DỰ ÁN",
+                "SERVICE": "DỊCH VỤ",
+                "NEWS": "TIN TỨC",
+                "RECRUITMENT": "TUYỂN DỤNG",
+                "CONTACT": "LIÊN HỆ",
+                "MAINNAME1": "CÔNG TY CỔ PHẦN THIẾT BỊ CÔNG NGHỆ CAO TM",
+                "MAINNAME2": "Nhập khẩu và Phân Phối Thiết Bị Y Tế Cao Cấp Chính Hãng",
+                "PARA1": "Với đội ngũ chuyên gia có kinh nghiệm hơn 10 năm tham gia các dự án đầu tư mua sắm trang thiết bị y tế, TM Hitech đảm bảo sẽ đưa ra những tư vấn hữu ích cho dự án của bạn. Chúng tôi cam kết tư vấn miễn phí trong toàn bộ dự án với mục tiêu tạo sự tin tưởng và mối liên hệ tốt với khách hàng.",
+                "PARA2": "Trong bối cảnh thị trường rộng mở như hiện nay, có rất nhiều dòng thiết bị y tế với giá cả và chất lượng khác nhau để khách hàng lựa chọn. Điều này đôi khi làm khó cho các quyết định đầu tư của khách hàng.",
+                "PARA3": "Kinh nghiệm lâu năm trong ngành thiết bị y tế, TM Hitech tự tin có thể hỗ trợ khách hàng thiết kế tổng thể dự án, xây dựng cấu hình chi tiết các dòng thiết bị sử dụng cho bệnh viện hay phòng khám của bạn.",
+                "SERVICE1": "Dịch vụ trong bảo hành",
+                "PARA4": "Tất cả các thiết bị Công ty cung cấp đều được bảo hành đảm bảo theo đúng tiêu chuẩn và cam kết của nhà sản xuất. Đội ngũ kỹ sư của Công ty giàu kinh nghiệm được cử đi tập huấn và đào tạo hàng năm ở nước ngoài theo các khoá tập huấn của Hãng đại diện, nhà sản xuất... chúng tôi hy vọng đáp ứng được yêu cầu của quý khách hàng.",
+                "PARA5": "Bất cứ lúc nào trong thời gian ngắn nhất, nhân viên kỹ thuật sẽ có mặt theo yêu cầu của khách hàng để chỉ dẫn thêm những vấn đề liên quan đến kỹ thuật của máy hoặc xử lý những sự cố bất thường.",
+                "PARA6": "Kiểm tra định kỳ lâu dài cho tất cả các thiết bị do Công ty cung cấp.",
+                "PARA7": "Sẵn sàng ký hợp đồng bảo trì nếu Quý khách hàng có yêu cầu, giá cả phù hợp với giá hiện hành trên thị trường.",
+                "PARA8": "Với kinh nghiệm & uy tín của mình, TMHitech luôn cam kết hoàn thành tốt nhất các yêu cầu về cung cấp, lắp đặt & hướng dẫn, tư vấn cho các khách hàng.",
+                "MAINNAME3": "TM HI-TECH JSC.",
+                "UNIPRO": "SẢN PHẨM NỔI BẬT",
+                "T1": "CHUẨN ĐOÁN HÌNH ẢNH",
+                "DETAIL": "Xem chi tiết",
+                "HIGHLIGHTNEWS": "TIN NỔI BẬT",
+
+            },
+            "zh-tw": {
+                "HOME": "HOME",
+                "INTRODUCE": "INTRODUCE",
+                "PRODUCTS": "PRODUCTS",
+                "PROJECTS": "PROJECTS",
+                "SERVICE": "SERVICE",
+                "NEWS": "NEWS",
+                "RECRUITMENT": "RECRUITMENT",
+                "CONTACT": "CONTACT",
+                "MAINNAME1": "TRADE HIGH TECH EQUIPMENT JOINT STOCK COMPANY",
+                "MAINNAME2": "Importing and Distributing Genuine Premium Medical Equipment",
+                "PARA1": "With a team of experts with more than 10 years of experience in medical equipment procurement investment projects, TM Hitech ensures to give useful advice for your project. We are committed to free consultation in the entire project with the goal of creating trust and good relationship with customers.",
+                "PARA2": "In the context of the current open market, there are many lines of medical equipment with different prices and quality for customers to choose from. This sometimes makes it difficult for customers to make investment decisions.",
+                "PARA3": "With many years of experience in the medical equipment industry, TM Hitech can confidently support customers in the overall design of the project, building detailed configuration of equipment lines used for your hospital or clinic.",
+                "SERVICE1": "Service in warranty",
+                "PARA4": "All equipment provided by the Company is guaranteed according to the standards and commitments of the manufacturer. The company's experienced engineers are sent to train and train abroad every year according to the training courses of the representative firms, manufacturers... we hope to meet your requirements. client.",
+                "PARA5": "At any time in the shortest possible time, technical staff will be available at the request of the customer to guide further technical problems of the machine or handle unusual problems.",
+                "PARA6": "Long term periodic inspection of all equipment provided by the Company.",
+                "PARA7": "Ready to sign a maintenance contract if required by the customer, the price is consistent with the current market price.",
+                "PARA8": "With its experience & reputation, TMHitech is always committed to fulfilling the best requirements for supply, installation & guidance, consulting for customers.",
+                "MAINNAME3": "TM HI-TECH JSC.",
+                "UNIPRO": "HIGHLIGHTS PRODUCTS",
+                "T1": "IMAGE ANALYSATION",
+                "DETAIL": "Detail",
+                "HIGHLIGHTNEWS": "HIGHLIGHT NEWS",
+            }
+        };
+
+        $(document).ready(function () {
+            // The default language is English
+            var lang = "en-gb";
+            $(".lang").each(function (index, element) {
+                $(this).text(arrLang[lang][$(this).attr("key")]);
+            });
+        });
+
+        // get/set the selected language
+        $(".translate").click(function () {
+            var lang = $(this).attr("id");
+
+            $(".lang").each(function (index, element) {
+                $(this).text(arrLang[lang][$(this).attr("key")]);
+            });
+        });
+    </script>
+</body>
+
+</html>

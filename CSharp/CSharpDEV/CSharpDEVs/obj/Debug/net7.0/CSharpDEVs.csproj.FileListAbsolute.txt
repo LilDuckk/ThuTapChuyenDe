@@ -1,0 +1,14 @@
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\CSharpDEVs\bin\Debug\net7.0\CSharpDEVs.exe
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\CSharpDEVs\bin\Debug\net7.0\CSharpDEVs.deps.json
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\CSharpDEVs\bin\Debug\net7.0\CSharpDEVs.runtimeconfig.json
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\CSharpDEVs\bin\Debug\net7.0\CSharpDEVs.dll
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\CSharpDEVs\bin\Debug\net7.0\CSharpDEVs.pdb
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\CSharpDEVs\obj\Debug\net7.0\CSharpDEVs.GeneratedMSBuildEditorConfig.editorconfig
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\CSharpDEVs\obj\Debug\net7.0\CSharpDEVs.AssemblyInfoInputs.cache
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\CSharpDEVs\obj\Debug\net7.0\CSharpDEVs.AssemblyInfo.cs
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\CSharpDEVs\obj\Debug\net7.0\CSharpDEVs.csproj.CoreCompileInputs.cache
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\CSharpDEVs\obj\Debug\net7.0\CSharpDEVs.dll
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\CSharpDEVs\obj\Debug\net7.0\refint\CSharpDEVs.dll
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\CSharpDEVs\obj\Debug\net7.0\CSharpDEVs.pdb
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\CSharpDEVs\obj\Debug\net7.0\CSharpDEVs.genruntimeconfig.cache
+D:\ThucTapChuyenDe_NETCORE\ThucTapChuyenDeDoanhNghiepDoAnTotNghiep-NETCORE\CSharp\CSharpDEV\CSharpDEVs\obj\Debug\net7.0\ref\CSharpDEVs.dll
